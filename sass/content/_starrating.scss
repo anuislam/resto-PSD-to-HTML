@@ -1,0 +1,25 @@
+.wrapper{
+  margin: 0;
+  text-align: left;
+  font-size: $base_font_size;
+  div {
+    margin:0;
+  }
+}
+
+
+.fa{
+  position: relative;
+}
+
+.fa-star-percentage{
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+      
+.fa-star{
+  color: #f1df1a;
+}

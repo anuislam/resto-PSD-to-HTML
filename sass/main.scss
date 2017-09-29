@@ -1,0 +1,39 @@
+/*editional utility*/
+@import 'inc/_mixins.scss';
+@import 'inc/_utility.scss';
+/*Header logo*/
+@import 'header/_logo.scss';
+/*Header menu*/
+@import 'header/_menu.scss';
+/*slider section*/
+@import 'content/_slider.scss';
+/*service section*/
+@import 'content/_service.scss';
+/*load more button*/
+@import 'content/_load_more.scss';
+/*carouysel content*/
+@import 'content/_carousel.scss';
+/*Star rating*/
+@import 'content/_starrating.scss';
+/*gallery*/
+@import 'content/_gallery.scss';
+/*Footer section*/
+@import 'footer/_footer.scss';
+
+
+/*Large devices.*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	@import 'responsive/_min_992_to_max_1200.scss';
+}
+/* Medium devices. */
+@media only screen and (min-width: 768px) and (max-width: 992px) { 
+	@import 'responsive/_min_768_to_max_992.scss';
+}
+/* Small devices. */
+@media only screen and (min-width: 544px) and (max-width: 768px) { 
+	@import 'responsive/_min_544_to_max_768.scss';
+} 
+/* Extra small devices. */
+@media only screen and (max-width: 544px) { 
+	@import 'responsive/_min_544.scss';
+}

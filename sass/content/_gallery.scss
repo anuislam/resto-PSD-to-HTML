@@ -1,0 +1,11 @@
+$gallery_height:430px;
+.the_gallery{	
+	margin-bottom: 150px;
+	overflow: hidden;
+	.the_gallery_big_image{
+		height: $gallery_height;
+	}
+	.gallery_height{
+		height: $gallery_height;
+	}
+}

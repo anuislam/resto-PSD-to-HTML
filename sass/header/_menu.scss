@@ -1,0 +1,17 @@
+.navbar-light.header_menu{
+	margin-right: -15px;
+		ul{
+			li{
+				padding: 0 1rem;
+				a.nav-link{
+					color:$h1_color;
+				}
+				&:last-child{
+					padding-right: 0;
+					a{
+						padding-right: 0;
+					}
+				}
+			}
+		}
+	}

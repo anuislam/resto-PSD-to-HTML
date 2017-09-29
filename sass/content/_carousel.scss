@@ -1,0 +1,63 @@
+.carosuel_section{
+	.carousel_top{
+		margin-bottom: 60px;
+		.carousel_title{
+			.title_span{
+				h1{
+					position: relative;
+					font-size: 20px;
+					line-height: 30px;
+					display: inline-block;
+					text-transform: uppercase;
+					font-weight: bold;					
+					&:after{
+						@include section_title_with_border(#b7b7b7);
+					}
+				}
+			}
+		}
+		.carousel_dots{
+			.owl-dot{
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				background-color: #dedede;
+				cursor: pointer;
+				border-radius: 50px;
+				margin: 5px;
+
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+			.owl-dot.active{
+				background-color: #9b9b9b;
+				cursor: inherit;
+			}
+		}
+	}
+	.main_owl_carousel{
+		.carousel_item{
+			.carousel_item_image{
+				img{
+
+				}
+			}
+			.carousel_item_description{
+				.carousel_item_title{
+					padding: 20px 0 10px 0;
+					h3{
+						@include corousel_title_font_size();
+						margin: 0;
+					}
+					.carousel_item_price{
+						@include corousel_title_font_size();
+					}
+				}
+				.carousel_item_rating{
+
+				}
+			}
+		}
+	}
+}

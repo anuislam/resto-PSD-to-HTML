@@ -1,0 +1,32 @@
+.main_footer{
+	background-color: #3b3b3b;
+	.footer_peragraph{
+		padding: 0;
+		p{
+			padding: 0 0 8px 0;
+			margin: 0;
+		}
+	}
+	.footer_menu{
+		ul{
+			padding: 0;
+			margin: 0;
+			li{
+				margin-bottom: 8px;
+				display: block;
+				a{
+					
+				}
+			}
+		}
+	}
+	.footer_text{
+		.footer_logo{
+			margin-bottom: 30px;
+		}
+		p{
+			margin: 0;
+			padding: 0 0 8px 0;
+		}
+	}
+}

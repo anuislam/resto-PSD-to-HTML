@@ -1,0 +1,33 @@
+.main_service{
+	padding-top: 180px !important;
+	.service_section{
+		margin-bottom: 60px;
+		.service_info{
+			width: 40%;
+			h3{
+				font-size: 16px;
+				line-height: 25px;
+				color: $h3_color;
+				margin-bottom: 0;
+			}
+			p{
+				font-size: 12px;
+				line-height: 24px;
+				color: $text_color;
+			}
+		}
+		.service_border{	
+			width: 40%;
+			height: 1px;
+			background-color: $text_color;
+			margin-top: 13px;
+		}
+		.service_price{
+			width: 10%;
+			color: $h3_color;
+		}
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}

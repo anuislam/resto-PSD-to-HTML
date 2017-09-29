@@ -1,0 +1,44 @@
+$h1_color:#3b3b3b;
+$h3_color:#555555;
+$border_color:#f34949;
+$bg_color:#fff;
+$text_color:#b7b7b7;
+$font:'Roboto', sans-serif;
+$color_white:#fff;
+$base_font_size:16px;
+html, body{
+	font-family: $font;
+	color: $text_color;
+}
+h1{
+	color: $h1_color;
+}
+h3{
+	color: $h3_color;
+}
+ul,li{
+	list-style: none;
+
+}
+.section_width{
+	width: 100%;
+	display: inline-block;
+}
+
+.section_padding{
+	padding: 80px 0 !important;
+}
+
+.navbar-light.header_menu ul li:last-child a.dropdown-item {
+    padding: .25rem 1.5rem;
+}
+
+.fw-500{
+	font-weight: 500 !important;
+}
+.fw-400{
+	font-weight: 400 !important;
+}
+.fw-700{
+	font-weight: 700 !important;
+}

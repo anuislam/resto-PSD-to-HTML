@@ -1,0 +1,47 @@
+@mixin bg_overlay($bg_color){
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: $bg_color;
+    opacity: 0.4;
+    z-index: 10;
+}
+
+@mixin slider_left_right_border($position_name, $position_value){
+		content:'';
+		position: absolute;
+		top: 50%;
+		margin-top: -1px;
+		height: 2px;
+		background-color: #fff;
+		width: 30px;
+		color: #fff;
+		z-index: 30;
+		@if $position_name == "left"{
+			left: $position_value;
+		}
+		@else{
+			right: $position_value;
+		}
+}
+
+@mixin section_title_with_border($bg_color){
+    content: '';
+    width: 200px;
+    height: 1px;
+    background-color: $bg_color;
+    position: absolute;
+    right: -215px;
+    top: 50%;
+    margin-top: -0.5px;
+}
+
+@mixin corousel_title_font_size(){
+    font-size: $base_font_size;
+    line-height: 26px;
+    color: $h3_color;
+    font-weight: 400;
+}
